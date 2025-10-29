@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #ffffff;
+    /* padding-left: 20px;
+    margin-bottom: 20px; */
+    padding: 20px 25px;
+    margin: 10px 0 0 0; /* top right bottom left */
+}
+
+a{
+    color: #ffff
+}
+
+.container{
+                display: flex;
+            }
+
+nav{
+    background-color: #424242;
+
+    padding: 15px 0;
+
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        li{
+            a{
+                color: #000000;
+                text-decoration: none;
+                background: #FFF;
+                padding: 5px;
+                transition: all ease-in-out 0.3s;
+
+                &:hover{
+                    color: #ca0d0d;
+                    background-color: #ca0d0d;
+                }
+            }
+        }
+    }
+}
+
+/* nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+} */
+
+main{
+    background-color: #e0ac89;
+
+    section{
+        padding: 20px;
+        &#esportes{
+            background-color: #523b2b;
+        }
+    }
+}
+
+footer{
+    background-color: #bbb;
+}
