@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agradecimento.css">
+    <title>Agradecimento</title>
+</head>
+<body>
+    <div class="agradecimento">
+      <h1>Reserva Confirmada!</h1>
+      <p>Obrigado, <strong>${reserva.nome}</strong> 🎉</p>
+      <p>Mesa reservada: <strong>${reserva.mesas.join(', ')}</strong></p>
+      <p>Código da reserva: <strong>${reserva.codigo}</strong></p>
+      <div id="qrcode"></div>
+      <button onclick="window.location.href='inicial.html'">Voltar ao Início</button>
+    </div>
+</body>
+</html>

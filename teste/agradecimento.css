@@ -1,0 +1,60 @@
+  /* ====== TELA DE AGRADECIMENTO ====== */
+/* ====== CONFIGURAÇÃO GERAL ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: rgb(34, 9, 1); /* Fundo preto elegante */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+.agradecimento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.agradecimento h1 {
+  color: #d4af37;
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+.agradecimento p {
+  font-size: 18px;
+  margin: 8px 0;
+  color: rgb(246, 170, 28);
+}
+
+.agradecimento button {
+  margin-top: 25px;
+  background-color: #d4af37;
+  color: #000;
+  border: none;
+  padding: 15px 35px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+}
+
+.agradecimento button:hover {
+  background-color: #fff;
+  box-shadow: 0 0 20px #d4af37;
+}
