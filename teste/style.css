@@ -19,7 +19,7 @@ body {
 
 /* ====== TÍTULO PRINCIPAL ====== */
 h1 {
-  font-size: 48px;
+  font-size: 60px;
   color: #d4af37; /* Dourado */
   margin-bottom: 50px;
   letter-spacing: 2px;
@@ -43,7 +43,7 @@ div {
 
 /* ====== BOTÕES ====== */
 button {
-  background-color: #d4af37; /* dourado */
+  background-color: rgb(212, 175, 55); /* dourado */
   color: #000;
   border: none;
   padding: 15px 35px;
